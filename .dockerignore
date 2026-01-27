@@ -1,0 +1,61 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+.eggs
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model cache (we'll download fresh in the container)
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Cache directories
+.cache/
+__pycache__/
+
+# Documentation (optional, remove if you want docs in image)
+docs/
+
+# Test files
+tests/
+test_*.py
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Other
+*.log
+*.md
+!README.md
+
